@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devil Coder Enroll Form</title>
+</head>
+
+<body style="text-align: center;">
+    <div style="font-family: Arial, Helvetica, sans-serif;background-color: rgb(16, 14, 14);color: white;">
+        <h1>Please Fill the following details :</h1>
+    </div>
+    <div style="font-family: Arial, Helvetica, sans-serif;color: black;background-color:white;text-align: left;">
+        <form>
+            <label for="fname">Enter Your First Name : <input type="text" id="fname" name="fname"
+                    required="true" /></label>
+            <br>
+            <br>
+            <label for="lname">Enter Your Last Name : <input type="text" id="lname" name="lname"
+                    required='false' /></label>
+            <br>
+            <br>
+            <label for="email">Enter Your Email : <input type="email" id="email" name="email" required="true"></label>
+            <br>
+            <br>
+            <label for="phone">Enter Your Phone Number : <input value="    +91" size="1" disabled /><input type="tel"
+                    id="phone" name="phone" size="10" required /></label>
+            <br>
+            <br>
+            <label for="age">Enter Your Age : <input type="number" id="age" name="age" min="17" max="29"
+                    size="2"></label>
+            <br>
+            <br>
+
+            <label for="gender"> Gender : <input type="radio" id="male" name="gender" required="true" />Male <input
+                    type="radio" id="female" name="gender" required />Female <input type="radio" id="other"
+                    name="gender" required />Other <input type="radio" id="preferNotToSay" name="gender"
+                    required />Prefer not to
+                say</label>
+            <br>
+            <br>
+            <label>Year of Graduation :
+                <select name="graduationYear" id="graduationYear">
+                    <option id="2022">2022</option>
+                    <option id="2023">2023</option>
+                    <option id="2024">2024</option>
+                    <option id="2025">2025</option>
+                    <option id="2026">2026</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label for="languagesAndFrameworks">Languages and Frameworks known :
+                <br>
+                <input type="checkbox" name="languagesAndFrameworks" id="C">C
+                <br>
+                <input type="checkbox" name="languagesAndFrameworks" id="C++">C++
+                <br>
+                <input type="checkbox" name="languagesAndFrameworks" id="C#">C#
+                <br>
+                <input type="checkbox" name="languagesAndFrameworks" id="Java">Java
+                <br>
+                <input type="checkbox" name="languagesAndFrameworks" id="Python">Python
+                <br>
+                <input type="checkbox" name="languagesAndFrameworks" id="React">React
+                <br>
+                <input type="checkbox" name="languagesAndFrameworks" id="Angular">Angular
+                <br>
+                <input type="checkbox" name="languagesAndFrameworks" id="Vue">Vue
+                <br>
+                <input type="checkbox" name="languagesAndFrameworks" id="NodeJs">NodeJs
+                <br>
+            </label>
+            <br>
+            <label>Describe About Yourself :</label>
+            <br>
+            <textarea name="describe" placeholder="Enter text here..." id="" cols="20" rows="4"
+                required="true"></textarea>
+            <br>
+            <br>
+            <button type="submit">Submit</button> <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
